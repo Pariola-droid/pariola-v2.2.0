@@ -8,6 +8,7 @@
   z-index: 999;
   display: grid;
   place-items: center;
+  z-index: 9999;
 
   & .wrapper {
     display: flex;
@@ -26,7 +27,6 @@
       font-weight: 700;
       text-transform: capitalize;
       font-size: 1.5rem;
-      animation-duration: 1s;
       color: #cbc9e2;
       z-index: 999999;
       font-weight: 600;
