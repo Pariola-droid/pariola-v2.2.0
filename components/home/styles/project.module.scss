@@ -78,17 +78,20 @@
           width: fit-content;
           height: fit-content;
           cursor: pointer;
-          font-size: 13px;
-          font-weight: 400;
+          font-size: 14px;
+          font-weight: 600;
           color: $linearGrey;
           text-transform: capitalize;
-          font-family: 'Josefin Sans', sans-serif;
+          font-family: 'Dosis', sans-serif;
+          transition: all 0.3s ease-in;
 
           & a {
             display: flex;
             align-items: center;
             justify-content: center;
             column-gap: 10px;
+            transition: all 0.3s ease-in;
+            letter-spacing: 1px;
           }
         }
       }
@@ -117,6 +120,16 @@
           transform: scaleX(1);
           -webkit-transform-origin: bottom left;
           transform-origin: bottom left;
+        }
+
+        & .bottom {
+          & button {
+            transform: scale(1.1);
+
+            & a {
+              column-gap: 8px;
+            }
+          }
         }
       }
     }
