@@ -30,7 +30,10 @@ export default class MyDocument extends Document {
             property="og:description"
             content="Pariola - Creative Frontend Developer"
           />
-          <meta property="og:image" content="/meta-pariola.svg" />
+          <meta
+            property="og:image"
+            content="https://ik.imagekit.io/9ghb9cknpe/meta-pariola_R_13RJ9w9.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1664615728373"
+          />
           <meta
             property="og:site_name"
             content="Pariola - Creative Frontend Developer"
@@ -50,8 +53,14 @@ export default class MyDocument extends Document {
             content="Pariola - Creative Frontend Developer"
           />
           <meta name="twitter:creator" content="@ipariola" />
-          <meta name="twitter:image" content="/meta-pariola.svg" />
-          <link rel="icon" href="/favicon.svg" />
+          <meta
+            name="twitter:image"
+            content="https://ik.imagekit.io/9ghb9cknpe/meta-pariola_R_13RJ9w9.svg"
+          />
+          <link
+            rel="icon"
+            href="https://ik.imagekit.io/9ghb9cknpe/favicon_FMluPbxGi.svg"
+          />
 
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
