@@ -27,6 +27,7 @@
     background-size: contain;
     background-image: url('https://raw.githubusercontent.com/adeolaadeoti/adeolaadeoti-v2/main/public/webp/hand-left.webp');
     transform: scale(0.6);
+    display: none;
 
     @media only screen and (max-width: 45em) {
       width: 20rem;
@@ -37,7 +38,7 @@
   & .aboutWrapper {
     width: 100%;
     max-width: 1100px;
-    height: 400px;
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,16 +59,12 @@
       text-align: left;
 
       &:nth-child(1) {
-        margin-bottom: auto;
-
         @media (max-width: $layout-breakpoint-small) {
           margin-bottom: 35px;
         }
       }
 
       &:nth-child(2) {
-        margin-top: auto;
-
         @media (max-width: $layout-breakpoint-small) {
           margin-top: 35px;
         }
