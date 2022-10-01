@@ -165,13 +165,13 @@
 
         p {
           max-width: 220px;
-          height: 60px;
+          height: fit-content;
           line-height: 1.5;
           font-family: 'Josefin Sans', sans-serif;
           font-size: 0.9em;
 
           @media (max-width: 600px) {
-            max-width: 48%;
+            max-width: 50%;
             font-size: 0.8em;
           }
         }
