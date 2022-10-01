@@ -8,6 +8,7 @@ import About from '../components/home/About';
 import Caption from '../components/home/Caption';
 import Experience from '../components/home/Experience';
 import Projects from '../components/home/Projects';
+import Contact from '../components/home/Contact';
 // ::: Main component
 import Footer from '../components/general/Footer';
 
@@ -25,6 +26,7 @@ export default function Home() {
         <Caption />
         <Experience />
         <Projects />
+        <Contact />
       </main>
       <Footer />
     </div>
