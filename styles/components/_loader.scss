@@ -1,0 +1,185 @@
+body.loading {
+  overflow: hidden;
+  height: 100vh;
+}
+
+@keyframes blurred_one {
+  0% {
+    opacity: 0.1;
+    top: 0%;
+  }
+
+  100% {
+    opacity: 0.3;
+    top: 100%;
+  }
+}
+
+@keyframes blurred_two {
+  0% {
+    opacity: 0.1;
+    transform: scale(0.5) rotate(360deg);
+  }
+
+  100% {
+    opacity: 0.2;
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+@keyframes blurred_three {
+  0% {
+    opacity: 0.2;
+    bottom: 0%;
+  }
+
+  100% {
+    opacity: 0.6;
+    bottom: 100%;
+  }
+}
+
+.loader {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  background: -webkit-linear-gradient(
+      102.59deg,
+      #daeffb 2.75%,
+      #ecf1ef 51.57%,
+      #fffbf5 90%
+    ),
+    linear-gradient(102.59deg, #daeffb 2.75%, #ecf1ef 51.57%, #fffbf5 60%);
+
+  &-blurred1 {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    position: absolute;
+    left: 0;
+    border-radius: 30% 70% 70% 30% / 51% 48% 52% 49%;
+    background: -webkit-linear-gradient(
+      50deg,
+      hsl(221deg 51% 16%) 0%,
+      hsl(217deg 44% 18%) 35%,
+      hsl(216deg 29% 31%) 45%,
+      hsl(218deg 17% 62%) 100%
+    );
+    background: linear-gradient(
+      50deg,
+      hsl(221deg 51% 16%) 0%,
+      hsl(217deg 44% 18%) 35%,
+      hsl(216deg 29% 31%) 45%,
+      hsl(218deg 17% 62%) 100%
+    );
+    filter: blur(50px);
+    animation: blurred_one 5s infinite linear;
+    animation-direction: alternate !important;
+  }
+
+  &-blurred2 {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    border-radius: 80% 20% 64% 36% / 29% 61% 39% 71%;
+    background: -webkit-linear-gradient(
+      to right top,
+      #14213d,
+      #3b4059,
+      #616277,
+      #878796,
+      #afaeb7,
+      #c1bacb,
+      #d8c5dd,
+      #f2cfec,
+      #ffb8d6,
+      #ffa4a8,
+      #ff9b69,
+      #fca311
+    );
+    background: linear-gradient(
+      to right top,
+      #14213d,
+      #3b4059,
+      #616277,
+      #878796,
+      #afaeb7,
+      #c1bacb,
+      #d8c5dd,
+      #f2cfec,
+      #ffb8d6,
+      #ffa4a8,
+      #ff9b69,
+      #fca311
+    );
+    opacity: 0.2;
+    filter: blur(80px);
+    animation: blurred_two 5s infinite linear;
+    animation-direction: alternate !important;
+  }
+
+  &-blurred3 {
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background: -webkit-linear-gradient(
+      25deg,
+      hsl(221deg 51% 16%) 0%,
+      hsl(227deg 21% 30%) 20%,
+      hsl(229deg 11% 44%) 29%,
+      hsl(230deg 8% 59%) 36%,
+      hsl(231deg 7% 74%) 43%,
+      hsl(0deg 0% 90%) 50%,
+      hsl(30deg 63% 85%) 57%,
+      hsl(31deg 86% 79%) 64%,
+      hsl(33deg 95% 72%) 71%,
+      hsl(34deg 98% 64%) 80%,
+      hsl(37deg 98% 53%) 100%
+    );
+    background: linear-gradient(
+      25deg,
+      hsl(221deg 51% 16%) 0%,
+      hsl(227deg 21% 30%) 20%,
+      hsl(229deg 11% 44%) 29%,
+      hsl(230deg 8% 59%) 36%,
+      hsl(231deg 7% 74%) 43%,
+      hsl(0deg 0% 90%) 50%,
+      hsl(30deg 63% 85%) 57%,
+      hsl(31deg 86% 79%) 64%,
+      hsl(33deg 95% 72%) 71%,
+      hsl(34deg 98% 64%) 80%,
+      hsl(37deg 98% 53%) 100%
+    );
+    filter: blur(80px);
+    animation: blurred_three 5s infinite linear;
+    animation-direction: alternate !important;
+  }
+
+  .loader-inner {
+    height: 100vh;
+    width: 100%;
+    background: -webkit-linear-gradient(
+        102.59deg,
+        #daeffb 2.75%,
+        #ecf1ef 51.57%,
+        #fffbf5 60%
+      ),
+      linear-gradient(102.59deg, #daeffb 2.75%, #ecf1ef 51.57%, #fffbf5 90%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & img {
+      height: 250px;
+
+      @include media('<=tablet') {
+        height: 180px;
+      }
+    }
+  }
+}

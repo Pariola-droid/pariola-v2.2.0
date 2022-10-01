@@ -1,0 +1,23 @@
+%desktop {
+  @include media('<=phone') {
+    display: none;
+  }
+}
+
+%desktop-tab {
+  @include media('<=tablet') {
+    display: none;
+  }
+}
+
+%tablet {
+  @include media('>tablet') {
+    display: none;
+  }
+}
+
+%mobile {
+  @include media('>phone') {
+    display: none;
+  }
+}

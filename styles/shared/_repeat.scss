@@ -1,0 +1,60 @@
+@-webkit-keyframes slime {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes slime {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#h1BG {
+  background: linear-gradient(
+    76deg,
+    #fde1ff,
+    #e0e7ff,
+    #e0f9ff,
+    #fffae9,
+    #e8eaff,
+    #ffe3f7,
+    #daf1ff,
+    #fde1ff,
+    #e0e7ff,
+    #e0f9ff,
+    #fffae9,
+    #e8eaff,
+    #ffe3f7,
+    #daf1ff,
+    #fde1ff,
+    #e0e7ff,
+    #e0f9ff,
+    #fffae9,
+    #e8eaff,
+    #ffe3f7,
+    #daf1ff
+  );
+  background-size: 500% 500%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-animation: slime 45s ease infinite;
+  animation: slime 45s ease infinite;
+}
