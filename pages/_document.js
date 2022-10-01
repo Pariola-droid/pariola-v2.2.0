@@ -10,10 +10,6 @@ export default class MyDocument extends Document {
             content="Pariola - Creative Frontend Developer"
           />
           <meta
-            name="google-site-verification"
-            content="OCuRTkXD5V9m2XD949t_Ju8_cwv03YlpMrLIL9dntg8"
-          />
-          <meta
             name="keyword"
             content="Omopariola Kehinde Philip, pariola.dev, Pariola, Portfolio, Creative Frontend Developer"
           />
@@ -32,7 +28,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://ik.imagekit.io/9ghb9cknpe/meta-pariola_R_13RJ9w9.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1664615728373"
+            content="https://ik.imagekit.io/9ghb9cknpe/meta-pariola_R_13RJ9w9.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1664615728373?ik-sdk-version=javascript-1.4.3&updatedAt=1664615728373"
           />
           <meta
             property="og:site_name"
@@ -55,11 +51,11 @@ export default class MyDocument extends Document {
           <meta name="twitter:creator" content="@ipariola" />
           <meta
             name="twitter:image"
-            content="https://ik.imagekit.io/9ghb9cknpe/meta-pariola_R_13RJ9w9.svg"
+            content="https://ik.imagekit.io/9ghb9cknpe/meta-pariola_R_13RJ9w9.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1664615728373"
           />
           <link
             rel="icon"
-            href="https://ik.imagekit.io/9ghb9cknpe/favicon_FMluPbxGi.svg"
+            href="https://ik.imagekit.io/9ghb9cknpe/favicon_FMluPbxGi.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1664615729503"
           />
 
           {/* Global Site Tag (gtag.js) - Google Analytics */}
