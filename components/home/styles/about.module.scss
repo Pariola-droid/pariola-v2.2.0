@@ -35,11 +35,12 @@
   }
 
   & .aboutWrapper {
-    width: 1200px;
+    width: 100%;
+    max-width: 1100px;
     height: 400px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     z-index: 1;
 
     @media (max-width: $layout-breakpoint-small) {
