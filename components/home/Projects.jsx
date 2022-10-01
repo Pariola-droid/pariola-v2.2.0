@@ -9,7 +9,7 @@ import styles from './styles/project.module.scss';
 export default function Projects() {
   return (
     <>
-      <section className={styles.project}>
+      <section className={styles.project} id="projects">
         <div className={styles.projWrapper}>
           {projectData.map((project, i) => (
             <div key={i} className={styles.projCard}>
