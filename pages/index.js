@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 //Basic component import
 import Navbar from '../components/general/Navbar';
+import Footer from '../components/general/Footer';
 
 export default function Home() {
   return (
@@ -11,8 +12,8 @@ export default function Home() {
       </Head>
 
       <Navbar />
-
       <main></main>
+      <Footer />
     </div>
   );
 }

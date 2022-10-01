@@ -17,6 +17,10 @@
     max-width: 1200px;
     height: fit-content;
 
+    @media screen and (max-width: 768px) {
+      max-width: 88%;
+    }
+
     & h1 {
       font-family: 'Josefin Sans', sans-serif;
       text-transform: capitalize;
