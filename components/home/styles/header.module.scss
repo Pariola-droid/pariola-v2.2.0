@@ -8,10 +8,10 @@
   position: relative;
   place-items: center;
   background: $hackBG;
-  padding: 150px 0 100px;
+  padding: 150px 0 80px;
 
   @media screen and (max-width: 768px) {
-    padding: 50px 0 50px;
+    padding: 100px 0 50px;
   }
 
   &::before {
@@ -47,7 +47,6 @@
       height: fit-content;
       justify-content: space-between;
       flex-direction: column;
-      margin: 80px auto;
     }
 
     & .text {
