@@ -6,3 +6,7 @@ main {
 body::-webkit-scrollbar {
   width: 0rem;
 }
+
+body {
+  background-color: $background;
+}
