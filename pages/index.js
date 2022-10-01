@@ -1,5 +1,8 @@
 import Head from 'next/head';
 
+//Basic component import
+import Navbar from '../components/general/Navbar';
+
 export default function Home() {
   return (
     <div>
@@ -7,7 +10,9 @@ export default function Home() {
         <title>Pariola - Creative Frontend Engineer</title>
       </Head>
 
-      <div>hey</div>
+      <Navbar />
+
+      <main></main>
     </div>
   );
 }
