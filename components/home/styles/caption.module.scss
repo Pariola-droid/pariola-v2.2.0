@@ -1,0 +1,201 @@
+// Imports in scss
+@import '../../../styles/core/variables';
+
+.caption {
+  height: fit-content;
+  width: 100%;
+  background: $hackBG;
+  display: grid;
+  place-items: center;
+  padding: 100px 0 100px;
+
+  @media screen and (max-width: $layout-breakpoint-small) {
+    padding: 50px 0 50px;
+  }
+
+  & .captionWrapper {
+    height: 545px;
+    width: 100%;
+    max-width: 1250px;
+    background: rgb(22, 22, 26);
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: $layout-breakpoint-small) {
+      height: auto;
+      width: 98%;
+      background: #16161a;
+      margin-top: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      transform: scale(0.9);
+    }
+
+    & .capture {
+      border-style: solid;
+      border-width: 0 0 0.15rem 0;
+      border-color: $linearGrey;
+      width: 50%;
+      height: 100%;
+      border-bottom-width: 0;
+      padding: 6.95em;
+      padding-left: 6em;
+
+      @media screen and (max-width: $layout-breakpoint-small) {
+        border-style: solid;
+        border-color: #cbc9e2;
+        width: 100%;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        padding: 4.8em 0;
+        border-bottom-width: 0rem;
+        padding-left: 3em;
+      }
+
+      &:not(:last-of-type) {
+        border-right-width: 0.15rem;
+
+        @media screen and (max-width: $layout-breakpoint-small) {
+          border-bottom-width: 0.15rem;
+          border-right-width: 0px;
+        }
+      }
+
+      & .captureText {
+        display: block;
+        margin-bottom: 4.6em;
+        text-align: left;
+
+        @media screen and (max-width: $layout-breakpoint-small) {
+          margin-bottom: 3.8em;
+          text-align: left;
+        }
+
+        h1 {
+          max-width: 30vw;
+          margin: 0;
+          font-size: 2.8em;
+          font-weight: 900;
+          line-height: 1.3;
+          letter-spacing: -0.03em;
+          display: block;
+          -webkit-animation: slime 45s ease infinite;
+          animation: slime 45s ease infinite;
+
+          @media screen and (max-width: $layout-breakpoint-small) {
+            max-width: 100vw;
+            font-size: 2.4rem;
+          }
+        }
+
+        p {
+          transform: translate3d(0, 0, 0);
+          width: unset;
+          line-height: 1.2;
+          font-size: 1.4em;
+          letter-spacing: 0.02em;
+          max-width: 701px;
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
+          font-family: 'Josefin Sans', sans-serif;
+          color: $linearGrey;
+
+          @media screen and (max-width: $layout-breakpoint-small) {
+            font-size: 1.2em;
+          }
+        }
+      }
+
+      & .aCapture {
+        font-family: 'Josefin Sans', sans-serif;
+        min-width: 23.222em;
+        position: relative;
+        font-weight: bold;
+        -webkit-text-transform: uppercase;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 0.8em;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        display: -webkit-inline-box;
+        display: -webkit-inline-flex;
+        display: -ms-flexbox;
+        display: inline-flex;
+        overflow: hidden;
+        background: transparent;
+        white-space: nowrap;
+        -webkit-tap-highlight-color: transparent;
+        align-items: center;
+        justify-content: center;
+        padding: 1.6em 3em;
+        // width: 100%;
+        color: $linearGrey;
+        border: 1px solid $linearGrey;
+
+        span {
+          background: linear-gradient(
+            76deg,
+            #fde1ff,
+            #e0e7ff,
+            #e0f9ff,
+            #fffae9,
+            #e8eaff,
+            #ffe3f7,
+            #daf1ff,
+            #fde1ff,
+            #e0e7ff,
+            #e0f9ff,
+            #fffae9,
+            #e8eaff,
+            #ffe3f7,
+            #daf1ff,
+            #fde1ff,
+            #e0e7ff,
+            #e0f9ff,
+            #fffae9,
+            #e8eaff,
+            #ffe3f7,
+            #daf1ff
+          );
+          -webkit-animation: slime 45s ease infinite;
+          animation: slime 45s ease infinite;
+          opacity: 0.3;
+          height: 100%;
+          position: absolute;
+          z-index: -1;
+          -webkit-transition: -webkit-transform 0.5s
+            cubic-bezier(0.23, 1, 0.32, 1);
+          -webkit-transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+          transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        &:hover {
+          z-index: 1;
+          color: #fff;
+
+          & span {
+            width: 100%;
+          }
+        }
+
+        @media screen and (max-width: $layout-breakpoint-small) {
+          padding: 1.2em 1em;
+          color: #cbc9e2;
+          border: 1px solid #cbc9e2;
+          min-width: 18em;
+          font-size: 80%;
+        }
+      }
+    }
+  }
+}
