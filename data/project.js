@@ -19,7 +19,7 @@ export const projectData = [
   },
   {
     name: 'Rezu',
-    desc: 'Creative portfolio website for maurice',
+    desc: 'Build your resume/portfolio site in minutes',
     lang: 'Reactjs + Figma',
     link: 'https://tryrezu.com',
   },
