@@ -10,7 +10,7 @@ export default function Navbar() {
       <nav id={styles.nav}>
         <div className={styles.wrapper}>
           <h1>
-            <Link href="/">pariola</Link>
+            <Link href="/">pariola.</Link>
           </h1>
 
           <small className={styles.uc}>🚧</small>
