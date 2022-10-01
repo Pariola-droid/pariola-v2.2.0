@@ -25,7 +25,7 @@
     column-gap: 200px;
 
     @media screen and (max-width: 768px) {
-      width: 75%;
+      width: 85%;
       align-items: flex-start;
       font-size: 90%;
       column-gap: 100px;
@@ -146,7 +146,8 @@
     small {
       -webkit-text-transform: uppercase;
       text-transform: uppercase;
-      font-family: 'Josefin Sans', sans-serif;
+      font-family: 'Dosis', sans-serif;
+      font-weight: 700;
 
       @media screen and (max-width: 600px) {
         font-size: 90%;
@@ -173,6 +174,8 @@
         text-transform: uppercase;
         display: inline-block;
         position: relative;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 700;
 
         &::before {
           content: '';
