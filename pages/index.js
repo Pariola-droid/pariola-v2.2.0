@@ -6,6 +6,7 @@ import Navbar from '../components/general/Navbar';
 import Header from '../components/home/Header';
 import About from '../components/home/About';
 import Caption from '../components/home/Caption';
+import Experience from '../components/home/Experience';
 // ::: Main component
 import Footer from '../components/general/Footer';
 
@@ -21,6 +22,7 @@ export default function Home() {
         <Header />
         <About />
         <Caption />
+        <Experience />
       </main>
       <Footer />
     </div>
