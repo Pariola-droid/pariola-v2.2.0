@@ -1,0 +1,98 @@
+// Imports in scss
+@import '../../../styles/core/variables';
+
+.about {
+  width: 100%;
+  height: fit-content;
+  background: $hackBG;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  padding: 80px 0 80px;
+
+  @media screen and (max-width: $layout-breakpoint-small) {
+    padding: 40px 0 40px;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 0rem;
+    left: -80px;
+    width: 26rem;
+    height: 26rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('https://raw.githubusercontent.com/adeolaadeoti/adeolaadeoti-v2/main/public/webp/hand-left.webp');
+    transform: scale(0.6);
+
+    @media only screen and (max-width: 45em) {
+      width: 20rem;
+      height: 20rem;
+    }
+  }
+
+  & .aboutWrapper {
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1;
+
+    @media (max-width: $layout-breakpoint-small) {
+      width: 85%;
+      height: fit-content;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+
+    & .textAbt {
+      max-width: 460px;
+      height: auto;
+      font-size: 1.07em;
+      display: block;
+      text-align: left;
+
+      &:nth-child(1) {
+        margin-bottom: auto;
+
+        @media (max-width: $layout-breakpoint-small) {
+          margin-bottom: 35px;
+        }
+      }
+
+      &:nth-child(2) {
+        margin-top: auto;
+
+        @media (max-width: $layout-breakpoint-small) {
+          margin-top: 35px;
+        }
+      }
+
+      & h1 {
+        font-size: 3.5em;
+        font-weight: 900;
+        letter-spacing: -0.03em;
+        color: transparent;
+        max-width: 30vw;
+        line-height: 1.5;
+
+        @media (max-width: $layout-breakpoint-small) {
+          font-size: 2.5em;
+          max-width: unset;
+        }
+      }
+
+      & p {
+        line-height: 1.6;
+        color: $linearGrey;
+        font-size: 0.9em;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 1rem;
+      }
+    }
+  }
+}

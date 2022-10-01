@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Navbar from '../components/general/Navbar';
 // ::: Main component
 import Header from '../components/home/Header';
+import About from '../components/home/About';
 // ::: Main component
 import Footer from '../components/general/Footer';
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Header />
+        <About />
       </main>
       <Footer />
     </div>
