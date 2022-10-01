@@ -16,39 +16,23 @@ export default function Experience() {
               past 02 years,
             </h1>
 
+            <p>(~_^)</p>
+
             <p>
               I&apos;ve built products for companies and individuals around
               africa ranging from marketing websites to complex solutions and
               enterprise apps with focus on fast, elegant and accessible user
-              experiences.
+              experiences. Currently, I work at Diool as a frontend engineer in
+              the growth team.
             </p>
 
             <p>
-              Currently, I work at Klas as the Lead frontend engineer crafting
+              Before now, I worked as a Lead Frontend Engineer at Klas, crafting
               thoughtful and inclusive experiences that adhere to web standards.
-            </p>
-
-            <p>
-              Before now, I worked as a Frontend Engineering Intern at Regnify,
-              where I worked on coverting Figma UI to interactives codes for
-              orgs and individuals.
-            </p>
-
-            <p>
-              Prior to Regnify, I was a front engineer contractor with
-              TheHouseInterior, building cool UIs that users love, overall the
-              improving the whole product experience.
-            </p>
-
-            <p>
-              I once also led the engineering team at a crypto startup, Badger
-              Inu through building multiple React applications.
+              Prior to Klas, I was a front engineer contractor with Regnify,
+              building cool products that users love
             </p>
           </article>
-
-          <figure className={styles.illustrate}>
-            <img src="/home/experience.svg" alt="experience ~ pariola.dev" />
-          </figure>
         </div>
       </section>
     </>
