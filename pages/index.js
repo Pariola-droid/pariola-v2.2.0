@@ -2,6 +2,9 @@ import Head from 'next/head';
 
 //Basic component import
 import Navbar from '../components/general/Navbar';
+// ::: Main component
+import Header from '../components/home/Header';
+// ::: Main component
 import Footer from '../components/general/Footer';
 
 export default function Home() {
@@ -12,7 +15,9 @@ export default function Home() {
       </Head>
 
       <Navbar />
-      <main></main>
+      <main>
+        <Header />
+      </main>
       <Footer />
     </div>
   );

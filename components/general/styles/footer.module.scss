@@ -9,6 +9,8 @@
   justify-content: center;
   flex-direction: column;
   color: #f5f5fad2;
+  background: $hackBG;
+  padding: 0 0 100px;
 
   & .footWrapper {
     height: -webkit-fit-content;
