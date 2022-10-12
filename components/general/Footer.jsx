@@ -13,7 +13,7 @@ export default function Footer() {
 
             <ul>
               <li>
-                <a href="mailto:ipariola@yahoo.com">hi@pariola.dev</a>
+                <a href="hi@pariola.dev">hi@pariola.dev</a>
               </li>
               <li>
                 <a
