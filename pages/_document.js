@@ -54,10 +54,7 @@ export default class MyDocument extends Document {
             content="https://ik.imagekit.io/9ghb9cknpe/meta-pariola_R_13RJ9w9.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1664615728373"
           />
 
-          <link
-            rel="icon"
-            href="https://ik.imagekit.io/9ghb9cknpe/favicon_FMluPbxGi.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1664615729503"
-          />
+          <link rel="icon" type="image/x-icon" href="/favicon.svg" />
 
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
