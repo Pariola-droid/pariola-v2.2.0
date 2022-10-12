@@ -17,6 +17,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Pariola - Creative Frontend Engineer</title>
+        <link rel="icon" href="/favicon.svg" />
       </Head>
 
       <Navbar />
