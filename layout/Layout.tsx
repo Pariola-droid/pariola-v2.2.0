@@ -5,7 +5,6 @@ export default function Layout(props: any) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: '',
     description: `I enjoy creating frontend solutions with solid foundations, scalability, and excellent user experiences.`,
     image: 'https://pariola.dev/meta/meta-pariola.jpg',
     type: 'website',
