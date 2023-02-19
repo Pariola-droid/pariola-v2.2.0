@@ -85,10 +85,11 @@
             content: '';
             position: absolute;
             width: 100%;
-            height: 2px;
+            height: 10px;
             background: $linearGrey;
+            opacity: 0.5;
             left: 0;
-            bottom: -8px;
+            bottom: -4px;
             -webkit-transform: scaleX(0);
             transform: scaleX(0);
             -webkit-transform-origin: bottom right;
@@ -109,8 +110,8 @@
             color: $linearGrey;
 
             &::before {
-              -webkit-transform: scaleX(1);
-              transform: scaleX(1);
+              -webkit-transform: scaleX(0.35);
+              transform: scaleX(0.4);
               -webkit-transform-origin: bottom left;
               transform-origin: bottom left;
             }
@@ -181,9 +182,10 @@
           content: '';
           position: absolute;
           width: 100%;
-          height: 2px;
+          height: 10px;
           background: $linearGrey;
-          bottom: -5px;
+          bottom: -4px;
+          opacity: 0.5;
           left: 0;
           -webkit-transform: scaleX(0);
           transform: scaleX(0);

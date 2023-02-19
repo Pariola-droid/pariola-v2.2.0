@@ -1,0 +1,24 @@
+{
+  "name": "Omopariola Philip",
+  "short_name": "pariola.dev",
+  "description": "Pariola | Creative Frontend Engineer",
+  "icons": [
+    {
+      "src": "/static/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "display": "standalone",
+  "dir": "ltr",
+  "lang": "en-US",
+  "orientation": "portrait-primary",
+  "start_url": "../../index.html"
+}
