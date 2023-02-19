@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 import useSWR from 'swr';
 import Image from 'next/image';
 import { useEffect } from 'react';
@@ -71,13 +72,18 @@ function AnimatedBars() {
   );
 }
 
+declare module 'react-tippy' {
+  export interface TooltipProps {
+    children?: ReactNode;
+  }
+}
+
 export default function NowPlaying() {
   const { data } = useSWR<NowPlayingSong>('/api/now-playing', fetcher);
 
   return (
     <div className={styles.spotifyPlay}>
       {data?.songUrl ? (
-        // declared a type for this custom
         <Tooltip
           html={
             <div>
