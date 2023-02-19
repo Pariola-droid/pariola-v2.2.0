@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import type { AppProps } from 'next/app';
+import { Analytics } from '@vercel/analytics/react';
 
 // component imports
 
@@ -9,7 +11,7 @@ import * as ga from '../lib/ga';
 // basic styles import
 import '../styles/index.scss';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
   useEffect(() => {
@@ -27,6 +29,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
+      <Analytics />
     </>
   );
 }

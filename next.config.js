@@ -7,6 +7,11 @@ module.exports = {
       'pbs.twimg.com', // Twitter Profile Picture
     ],
   },
+  experimental: {
+    fontLoaders: [
+      { loader: '@next/font/google', options: { subsets: ['latin'] } },
+    ],
+  },
   async headers() {
     return [
       {
@@ -20,13 +25,13 @@ module.exports = {
 // https://nextjs.org/docs/advanced-features/security-headers
 const ContentSecurityPolicy = `
     default-src 'self';
-    script-src 'self' 'unsafe-eval' 'unsafe-inline' *.youtube.com *.twitter.com;
+    script-src 'self' 'unsafe-eval' 'unsafe-inline' *.youtube.com *.twitter.com *.google-analytics.com *.google.com *.gstatic.com *.googleapis.com *.googletagmanager.com *.vercel-insights.com;
     child-src *.youtube.com *.google.com *.twitter.com;
     style-src 'self' 'unsafe-inline' *.googleapis.com;
     img-src * blob: data:;
     media-src 'none';
     connect-src *;
-    font-src 'self';
+    font-src 'self' *.fonts.googleapis.com *.gstatic.com;
 `;
 
 const securityHeaders = [

@@ -7,7 +7,7 @@ export default function NotFound() {
     <Layout title="404">
       <div>
         <h1>404 – Unavailable For Legal Reasons</h1>
-        <p className="text-gray-600 dark:text-gray-400 mb-8">
+        <p>
           Why show a generic 404 when I can make it sound mysterious? It seems
           you&apos;ve found something that used to exist, or you spelled
           something wrong. I&apos;m guessing you spelled something wrong. Can

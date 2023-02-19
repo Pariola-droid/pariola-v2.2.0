@@ -68,6 +68,11 @@
   dependencies:
     glob "7.1.7"
 
+"@next/font@^13.1.6":
+  version "13.1.6"
+  resolved "https://registry.npmjs.org/@next/font/-/font-13.1.6.tgz"
+  integrity sha512-AITjmeb1RgX1HKMCiA39ztx2mxeAyxl4ljv2UoSBUGAbFFMg8MO7YAvjHCgFhD39hL7YTbFjol04e/BPBH5RzQ==
+
 "@next/swc-android-arm-eabi@13.1.6":
   version "13.1.6"
   resolved "https://registry.yarnpkg.com/@next/swc-android-arm-eabi/-/swc-android-arm-eabi-13.1.6.tgz#d766dfc10e27814d947b20f052067c239913dbcc"
@@ -250,6 +255,11 @@
   dependencies:
     "@typescript-eslint/types" "5.52.0"
     eslint-visitor-keys "^3.3.0"
+
+"@vercel/analytics@^0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@vercel/analytics/-/analytics-0.1.10.tgz#772ab975f1226b6db9632568299ead173c21da7d"
+  integrity sha512-jjJ8GzcPnQp0cMxpfYoUycMRBtDiaIeyVjZPiEPe99Dj1PdjMzAFYEASiV/hpNsXHkpcNYCveDFh6jnmh0YSDQ==
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
