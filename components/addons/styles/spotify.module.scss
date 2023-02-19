@@ -1,0 +1,118 @@
+// Imports in scss
+@import '../../../styles/core/variables';
+
+.animatedBars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  border: 2px solid $linearGrey;
+  column-gap: 3px;
+
+  @media (max-width: 600px) {
+    transform: scale(0.9);
+  }
+
+  .bar {
+    height: 5px;
+    width: 2px;
+    background-color: $linearGrey;
+
+    &:nth-child(1) {
+      height: 8px;
+      opacity: 0.75;
+    }
+
+    &:nth-child(2) {
+      height: 4px;
+    }
+
+    &:nth-child(3) {
+      height: 12px;
+      opacity: 0.8;
+    }
+  }
+}
+
+.songArtist {
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: $linearGrey;
+  line-height: 1.5;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.8em;
+
+  // @media (max-width: 600px) {
+  //   font-size: 0.6em;
+  // }
+}
+
+.spotifyPlay {
+  width: auto;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  column-gap: 10px;
+
+  & .brandLogo {
+    width: 30px;
+    height: 30px;
+  }
+
+  & .songTitle {
+    line-height: 1.5;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.8em;
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    transition: 0.3s all ease-in;
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 10px;
+      background: $linearGrey;
+      bottom: -4px;
+      opacity: 0.5;
+      left: 0;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transform-origin: bottom right;
+      transform-origin: bottom right;
+      -webkit-transition: -webkit-transform 0.25s ease-out;
+      transition: -webkit-transform 0.25s ease-out;
+      transition: transform 0.25s ease-out;
+      transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+    }
+
+    &:hover {
+      transform: scale(0.98);
+      color: $linearGrey;
+
+      &::before {
+        -webkit-transform: scaleX(0.35);
+        transform: scaleX(0.35);
+        -webkit-transform-origin: bottom left;
+        transform-origin: bottom left;
+      }
+
+      @media (max-width: 600px) {
+        transform: scale(1);
+      }
+    }
+
+    @media (max-width: 600px) {
+      font-size: 0.6em;
+    }
+  }
+}

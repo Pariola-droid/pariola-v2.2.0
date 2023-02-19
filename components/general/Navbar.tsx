@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 //Basic styles import
 import styles from './styles/navbar.module.scss';
+import NowPlaying from 'components/addons/Spotify';
 
 export default function Navbar() {
   return (
@@ -13,7 +14,7 @@ export default function Navbar() {
             <Link href="/">pariola.</Link>
           </h1>
 
-          <small className={styles.uc}>🚧</small>
+          <NowPlaying />
         </div>
       </nav>
     </>
