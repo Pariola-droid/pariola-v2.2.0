@@ -87,9 +87,7 @@ export default function NowPlaying() {
         <Tooltip
           html={
             <div>
-              <div className={styles.songArtist}>
-                {data?.artist ?? 'Spotify'}
-              </div>
+              <div className={styles.songArtist}>{data?.artist}</div>
             </div>
           }
           position="top"
@@ -99,7 +97,18 @@ export default function NowPlaying() {
           <AnimatedBars />
         </Tooltip>
       ) : (
-        <Image src="/home/spotify.png" height={25} width={25} alt="spotify" />
+        <Tooltip
+          html={
+            <div>
+              <div className={styles.songArtist}>Not playing!</div>
+            </div>
+          }
+          position="top"
+          duration={200}
+          size="small"
+        >
+          <Image src="/home/spotify.png" height={25} width={25} alt="spotify" />
+        </Tooltip>
       )}
       <div className={styles.songTitle}>
         {data?.songUrl ? (
