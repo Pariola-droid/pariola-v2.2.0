@@ -77,6 +77,7 @@ export default function NowPlaying() {
   return (
     <div className={styles.spotifyPlay}>
       {data?.songUrl ? (
+        // declared a type for this custom
         <Tooltip
           html={
             <div>
