@@ -34,11 +34,25 @@ export default function Layout(props: any) {
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Pariola" />
         <meta property="og:description" content={meta.description} />
-        <meta property="og:title" content={meta.title} />
+        <meta
+          property="og:title"
+          content={
+            meta.title
+              ? `${meta.title} • Pariola | Creative Frontend Engineer`
+              : 'Pariola | Creative Frontend Engineer'
+          }
+        />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@ipariola" />
-        <meta name="twitter:title" content={meta.title} />
+        <meta
+          name="twitter:title"
+          content={
+            meta.title
+              ? `${meta.title} • Pariola | Creative Frontend Engineer`
+              : 'Pariola | Creative Frontend Engineer'
+          }
+        />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
         {/*  */}
