@@ -47,7 +47,7 @@ export default function Caption() {
             </article>
 
             <a
-              href="https://ipariola.hashnode.dev"
+              href="https://blog.pariola.dev"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.aCapture}

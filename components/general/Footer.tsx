@@ -15,7 +15,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://ipariola.hashnode.dev/"
+                  href="https://blog.pariola.dev"
                   target="_blanket"
                   rel="noopener"
                 >
