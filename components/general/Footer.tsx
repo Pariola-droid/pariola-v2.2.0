@@ -2,6 +2,8 @@
 import styles from './styles/footer.module.scss';
 
 export default function Footer() {
+  const Year = new Date().getFullYear();
+
   return (
     <>
       <footer id={styles.footer}>
@@ -11,7 +13,7 @@ export default function Footer() {
 
             <ul>
               <li>
-                <a href="mailto:hi@pariola.dev">hi@pariola.dev</a>
+                <a href="mailto:kehindephilip15@gmail.com">hi@pariola.dev</a>
               </li>
               <li>
                 <a
@@ -40,11 +42,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a
-                  href="https://drive.google.com/file/d/17A4LDyeQa83eOyRYEhNquWY7q_3TCMJn/view?usp=sharing"
-                  target="_blanket"
-                  rel="noopener"
-                >
+                <a href="/files/resume.pdf" target="_blanket" rel="noopener">
                   My Résumé
                 </a>
               </li>
@@ -53,7 +51,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.footBase}>
-          <small>&copy; Omopariola Philip 2022</small>
+          <small>&copy; Omopariola Philip {Year}</small>
 
           <ul>
             <li>
