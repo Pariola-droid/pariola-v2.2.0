@@ -1,14 +1,14 @@
 export const projectData = [
   {
-    name: 'maurice.design',
+    name: 'Maurice.design',
     desc: 'Creative portfolio website for maurice',
     lang: 'parcel + html + gsap + sass',
-    link: 'https://mauricevic.design',
+    link: 'https://maurice-victor.netlify.app',
   },
   {
     name: 'ChurchRUSH',
     desc: 'The complete operational stack for your church',
-    lang: 'NEXTJS + GraphQL',
+    lang: 'NextJS + GraphQL',
     link: 'https://churchrush.com',
   },
   {
@@ -30,15 +30,15 @@ export const projectData = [
   //   link: 'https://thehouseinterior.com',
   // },
   {
-    name: 'LightPointe Schools',
-    desc: 'The perfect place for every child.',
-    lang: 'NEXTJS + SCSS + FIGMA',
-    link: 'https://lightpointeschools.org',
+    name: 'Enesee Agency',
+    desc: 'Web3 based digital agency',
+    lang: 'VueJS + SCSS + GSAP',
+    link: 'https://enesee.agency',
   },
   {
-    name: 'LightPointe Church',
-    desc: 'A website for a growing church',
-    lang: 'NEXTJS + SCSS',
-    link: 'https://lightpointechurch.org',
+    name: 'Heinz ~ Sholape',
+    desc: 'Sholape what did you add to your Stew?',
+    lang: 'VueJS + SCSS + GSAP',
+    link: 'https://heinz-web.vercel.app',
   },
 ];
