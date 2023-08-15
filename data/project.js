@@ -15,7 +15,7 @@ export const projectData = [
     name: 'Circle Finance',
     desc: 'Unlock your Financial Potential',
     lang: 'NEXTJS + SASS',
-    link: 'https://tryklas.com',
+    link: 'https://circlefinance.ng',
   },
   {
     name: 'Klas',
