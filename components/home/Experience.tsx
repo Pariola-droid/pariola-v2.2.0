@@ -10,11 +10,7 @@ export default function Experience() {
       <section className={styles.experience}>
         <div className={styles.expWrapper}>
           <article className={styles.expText}>
-            <h1 id="h1BG">
-              Over the
-              <br />
-              past 02 years,
-            </h1>
+            <h1 id="h1BG">Over the years,</h1>
 
             <p>(~_^)</p>
 
