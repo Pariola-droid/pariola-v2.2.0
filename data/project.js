@@ -45,6 +45,6 @@ export const projectData = [
     name: 'Heinz ~ Sholape',
     desc: 'Sholape what did you add to your Stew?',
     lang: 'VueJS + SCSS + GSAP',
-    link: 'https://heinz.brimble.app',
+    link: 'https://heinz-web.vercel.app',
   },
 ];
