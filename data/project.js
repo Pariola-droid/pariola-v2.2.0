@@ -23,11 +23,17 @@ export const projectData = [
     lang: 'NEXTJS + GRAPHQL',
     link: 'https://tryklas.com',
   },
+  // {
+  //   name: 'Rezu',
+  //   desc: 'Build your resume/portfolio site in minutes',
+  //   lang: 'Reactjs + Figma',
+  //   link: 'https://tryrezu.com',
+  // },
   {
-    name: 'Rezu',
-    desc: 'Build your resume/portfolio site in minutes',
-    lang: 'Reactjs + Figma',
-    link: 'https://tryrezu.com',
+    name: 'Shrimppp',
+    desc: 'Creative website for Shrimppp Food product',
+    lang: 'Vuejs + Gsap',
+    link: 'https://shrimppp.pariola.dev',
   },
   // {
   //   name: 'THI',
