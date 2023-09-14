@@ -5,7 +5,7 @@ main {
 
 html {
   box-sizing: border-box;
-  font-size: calc(100vw / 1440 * 16);
+  // font-size: calc(100vw / 1440 * 16);
   scroll-behavior: auto;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -13,17 +13,17 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 
-  @include media('<=tablet') {
-    font-size: calc(100vw / 768 * 16);
-  }
+  // @include media('<=tablet') {
+  //   font-size: calc(100vw / 768 * 16);
+  // }
 
-  @include media('<=phone') {
-    font-size: calc(100vw / 425 * 16);
-  }
+  // @include media('<=phone') {
+  //   font-size: calc(100vw / 425 * 16);
+  // }
 
-  @include media('<=375px') {
-    font-size: calc(100vw / 375 * 16);
-  }
+  // @include media('<=375px') {
+  //   font-size: calc(100vw / 375 * 16);
+  // }
 }
 
 body {
