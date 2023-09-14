@@ -23,10 +23,10 @@ export default function Experience() {
             </p>
 
             <p>
-              Before now, I worked as a Lead Frontend Engineer at Klas, crafting
-              thoughtful and inclusive experiences that adhere to web standards.
-              Prior to Klas, I was a front engineer contractor with Regnify,
-              building cool products that users love
+              Before now, I worked as the Founding Frontend Engineer at Klas,
+              crafting thoughtful and inclusive experiences that adhere to web
+              standards. Prior to Klas, I was a front engineer contractor with
+              Regnify, building cool products that users love
             </p>
           </article>
         </div>
