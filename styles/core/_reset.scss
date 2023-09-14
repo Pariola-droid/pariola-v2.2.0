@@ -85,6 +85,10 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+
+  @include media('<=tablet') {
+    scroll-behavior: smooth !important;
+  }
 }
 
 article,
