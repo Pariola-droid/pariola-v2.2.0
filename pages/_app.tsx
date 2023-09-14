@@ -1,10 +1,7 @@
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import type { AppProps } from 'next/app';
 import { Analytics } from '@vercel/analytics/react';
-
-// component imports
-
-import { useRouter } from 'next/router';
 
 import * as ga from '../lib/ga';
 

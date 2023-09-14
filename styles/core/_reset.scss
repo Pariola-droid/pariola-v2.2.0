@@ -104,15 +104,12 @@ section {
 body {
   @extend %Poppins;
   line-height: 1;
-  scroll-behavior: smooth !important;
   color: #fff;
-  overflow-x: hidden;
 }
 
 main {
   @extend %Poppins;
   color: #fff;
-  overflow-x: hidden;
 }
 
 ol,

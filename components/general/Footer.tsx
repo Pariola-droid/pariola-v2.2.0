@@ -1,4 +1,5 @@
 //Basic styles import
+import Link from 'next/link';
 import styles from './styles/footer.module.scss';
 
 export default function Footer() {
@@ -30,7 +31,7 @@ export default function Footer() {
           <div className={styles.ulBox}>
             <ul>
               <li>
-                <a href="#projects">My Works</a>
+                <Link href="#projects">My Works</Link>
               </li>
               <li>
                 <a

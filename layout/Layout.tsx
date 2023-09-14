@@ -1,5 +1,9 @@
 import Head from 'next/head';
+import { Fragment } from 'react';
 import { useRouter } from 'next/router';
+//
+import Footer from 'components/general/Footer';
+import Navbar from 'components/general/Navbar';
 
 export default function Layout(props: any) {
   const { children, ...customMeta } = props;
@@ -11,7 +15,7 @@ export default function Layout(props: any) {
     ...customMeta,
   };
   return (
-    <div>
+    <Fragment>
       <Head>
         <title>
           {meta.title
@@ -59,7 +63,9 @@ export default function Layout(props: any) {
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
       </Head>
 
+      <Navbar />
       {children}
-    </div>
+      <Footer />
+    </Fragment>
   );
 }
