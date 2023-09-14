@@ -29,12 +29,12 @@ export default function Layout(props: any) {
         />
         <meta name="author" content="Pariola - Creative Frontend Developer" />
         <meta content={meta.description} name="description" />
-        <meta name="theme-color" content="#000000" />
         <meta
           property="og:url"
           content={`https://pariola.dev${router.asPath}`}
         />
         <link rel="canonical" href={`https://pariola.dev${router.asPath}`} />
+        {/*  */}
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Pariola" />
         <meta property="og:description" content={meta.description} />
@@ -47,6 +47,7 @@ export default function Layout(props: any) {
           }
         />
         <meta property="og:image" content={meta.image} />
+        {/*  */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@ipariola" />
         <meta
@@ -60,7 +61,12 @@ export default function Layout(props: any) {
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
         {/*  */}
-        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          sizes="32x32"
+          href="/favicon.svg"
+        />
       </Head>
 
       <Navbar />
