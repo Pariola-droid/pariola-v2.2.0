@@ -28,7 +28,7 @@ export const projectData = [
     name: 'Covapay',
     desc: 'If a fintech website was so cool and creative',
     lang: 'AstroJS + SCSS + GSAP',
-    link: 'https://covapay.pariola.dev',
+    link: 'https://pariola.dev',
   },
   {
     name: 'Enesee Agency',
