@@ -1,5 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 import React from 'react';
+import Image from 'next/image';
+
+import Fineboy from '../../public/home/pfp-pariola.jpg';
 
 //Basic styles import
 import styles from './styles/header.module.scss';
@@ -40,7 +42,12 @@ export default function Header() {
 
           <div className={styles.imageH}>
             <div>
-              <span className={styles.fineBoy}></span>
+              <Image
+                src={Fineboy}
+                className={styles.fineBoy}
+                alt="Pariola's Picture"
+                placeholder="blur"
+              />
             </div>
             <span></span>
           </div>
