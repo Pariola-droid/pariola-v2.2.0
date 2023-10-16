@@ -42,11 +42,18 @@ export default function Header() {
 
           <div className={styles.imageH}>
             <div>
+              {/*
               <Image
                 src={Fineboy}
                 className={styles.fineBoy}
                 alt="Pariola's Picture"
                 placeholder="blur"
+              />
+              */}
+              <div
+                role="img"
+                aria-label="Pariola's Picture"
+                className={styles.fineBoy}
               />
             </div>
             <span></span>
