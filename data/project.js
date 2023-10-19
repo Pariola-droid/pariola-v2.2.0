@@ -15,7 +15,7 @@ export const projectData = [
     name: 'CitySubs',
     desc: 'A mini web app for a grill restaurant',
     lang: 'NextJS + AIRTABLE + MOTION',
-    link: 'https://mycitysubs.com',
+    link: 'https://citysub.pariola.dev',
   },
   {
     name: 'Shrimppp',
