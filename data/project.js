@@ -14,7 +14,7 @@ export const projectData = [
   {
     name: 'CitySubs',
     desc: 'A mini web app for a grill restaurant',
-    lang: 'NextJS + AIRTABLE + MOTION + RESEND',
+    lang: 'NextJS + AIRTABLE + RESEND',
     link: 'https://citysub.pariola.dev',
   },
   {
