@@ -84,7 +84,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://instagram.com/ipariola"
+                href="https://instagram.com/hi5crt"
                 target="_blanket"
                 rel="noopener"
               >
