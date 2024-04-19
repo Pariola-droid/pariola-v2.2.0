@@ -23,18 +23,23 @@ export const projectData = [
     lang: 'Vuejs + Gsap',
     link: 'https://shrimppp.pariola.dev',
   },
-
   {
     name: 'Covapay',
     desc: 'If a fintech website was so cool and creative',
     lang: 'AstroJS + SCSS + GSAP',
-    link: 'https://pariola.dev',
+    link: 'https://covapay.pariola.dev',
   },
+  // {
+  //   name: 'Enesee Agency',
+  //   desc: 'Web3 based digital agency',
+  //   lang: 'VueJS + SCSS + GSAP',
+  //   link: 'https://enesee.agency',
+  // },
   {
-    name: 'Enesee Agency',
-    desc: 'Web3 based digital agency',
-    lang: 'VueJS + SCSS + GSAP',
-    link: 'https://enesee.agency',
+    name: 'Qilo Health',
+    desc: 'A science-based weight loss solution to help you lose weight and keep it off.',
+    lang: 'NextJS + PRISMIC + SCSS',
+    link: 'https://qilo.co',
   },
 
   // {
@@ -56,13 +61,6 @@ export const projectData = [
   //   desc: 'Build your resume/portfolio site in minutes',
   //   lang: 'Reactjs + Figma',
   //   link: 'https://tryrezu.com',
-  // },
-
-  // {
-  //   name: 'THI',
-  //   desc: 'An ecommerce website for a furniture brand',
-  //   lang: 'NEXTJS + SCSS + Tailwind',
-  //   link: 'https://thehouseinterior.com',
   // },
 
   // {
