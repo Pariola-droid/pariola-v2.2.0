@@ -27,14 +27,14 @@ export default class MyDocument extends Document {
           <meta
             name="theme-color"
             media="(prefers-color-scheme: light)"
-            content="#00aba9"
+            content="#020e1828"
           />
           <meta
             name="theme-color"
             media="(prefers-color-scheme: dark)"
-            content="#00aba9"
+            content="#020e1828"
           />
-          <meta content="#00aba9" name="msapplication-TileColor" />
+          <meta content="#020e1828" name="msapplication-TileColor" />
           <meta content="/meta/browserconfig.xml" name="msapplication-config" />
           <meta name="yandex-verification" content="513eaa5344e9eec7" />
           <meta

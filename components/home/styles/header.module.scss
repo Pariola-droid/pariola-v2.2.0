@@ -197,11 +197,9 @@
         width: 100%;
         position: absolute;
         z-index: 99;
-        margin-top: -0.5em;
 
         @media (max-width: 768px) {
           height: 280px;
-          margin-top: 0;
         }
 
         & .fineBoy {
@@ -210,7 +208,7 @@
           display: block;
           background-size: cover;
           background-position-x: center;
-          background-image: url('https://ik.imagekit.io/9ghb9cknpe/pfp-pariola_F1qj-uG0V.jpg?updatedAt=1697488390423');
+          background-image: url('https://ik.imagekit.io/9ghb9cknpe/pariola_dp_sqr?updatedAt=1722351979096');
         }
       }
 
@@ -221,6 +219,7 @@
         border: 2px solid $linearGrey;
         bottom: 0;
         background: transparent;
+        opacity: 0.6;
 
         @media (max-width: 768px) {
           position: absolute;
