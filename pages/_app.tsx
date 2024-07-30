@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react';
+import { Fragment, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import type { AppProps } from 'next/app';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/react';
 
 import * as ga from '../lib/ga';
@@ -24,10 +25,11 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [router.events]);
 
   return (
-    <>
+    <Fragment>
       <Component {...pageProps} />
       <Analytics />
-    </>
+      <SpeedInsights />
+    </Fragment>
   );
 }
 

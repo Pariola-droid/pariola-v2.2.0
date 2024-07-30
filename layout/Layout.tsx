@@ -1,11 +1,19 @@
 import Head from 'next/head';
-import { Fragment } from 'react';
+import React, { Fragment, PropsWithChildren } from 'react';
 import { useRouter } from 'next/router';
 //
-import Footer from 'components/general/Footer';
-import Navbar from 'components/general/Navbar';
+import Footer from 'components/common/Footer';
+import Navbar from 'components/common/Navbar';
 
-export default function Layout(props: any) {
+interface ILayoutProps extends PropsWithChildren {
+  title?: string;
+  description?: string;
+  image?: string;
+  type?: string;
+  children: React.ReactNode;
+}
+
+export default function Layout(props: ILayoutProps) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
@@ -70,7 +78,7 @@ export default function Layout(props: any) {
       </Head>
 
       <Navbar />
-      {children}
+      <main>{children}</main>
       <Footer />
     </Fragment>
   );

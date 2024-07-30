@@ -7,16 +7,14 @@ import NowPlaying from 'components/addons/Spotify';
 
 export default function Navbar() {
   return (
-    <>
-      <nav id={styles.nav}>
-        <div className={styles.wrapper}>
-          <h1>
-            <Link href="/">pariola.</Link>
-          </h1>
+    <nav id={styles.nav}>
+      <div className={styles.wrapper}>
+        <h1>
+          <Link href="/">pariola.</Link>
+        </h1>
 
-          <NowPlaying />
-        </div>
-      </nav>
-    </>
+        <NowPlaying />
+      </div>
+    </nav>
   );
 }

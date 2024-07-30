@@ -16,14 +16,12 @@ export default function Home() {
 
   return (
     <Layout>
-      <main>
-        <Header />
-        <About />
-        <Caption />
-        <Experience />
-        <Projects />
-        <Contact />
-      </main>
+      <Header />
+      <About />
+      <Caption />
+      <Experience />
+      <Projects />
+      <Contact />
     </Layout>
   );
 }
