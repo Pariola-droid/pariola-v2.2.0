@@ -13,7 +13,7 @@ export const projectData: IProject[] = [
     name: 'Circle Finance',
     description: 'Unlock your Financial Potential',
     tags: 'NEXTJS + SCSS',
-    url: 'https://circlefinance.ng',
+    url: 'https://circlefinance.pariola.dev',
   },
   {
     id: 3,
