@@ -1,8 +1,3 @@
-import React from 'react';
-import Image from 'next/image';
-
-import Fineboy from '../../public/home/pfp-pariola.jpg';
-
 //Basic styles import
 import styles from './styles/header.module.scss';
 
@@ -33,7 +28,7 @@ export default function Header() {
             </p>
 
             <p id="h1BG">
-              Over a two years of experience building products for clients
+              Over a three years of experience building products for clients
               across africa.
             </p>
           </div>
