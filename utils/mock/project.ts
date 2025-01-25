@@ -13,28 +13,28 @@ export const projectData: IProject[] = [
     name: 'Circle Finance',
     description: 'Unlock your Financial Potential',
     tags: 'NEXTJS + SCSS',
-    url: 'https://circlefinance.pariola.dev',
+    url: 'https://circlefinance.pariola.work',
   },
   {
     id: 3,
     name: 'CitySubs',
     description: 'A mini web app for a grill restaurant',
     tags: 'NextJS + AIRTABLE + RESEND',
-    url: 'https://citysub.pariola.dev',
+    url: 'https://citysub.pariola.work',
   },
   {
     id: 4,
     name: 'Shrimppp',
     description: 'Creative website for Shrimppp Food product',
     tags: 'Vuejs + Gsap',
-    url: 'https://shrimppp.pariola.dev',
+    url: 'https://shrimppp.pariola.work',
   },
   {
     id: 5,
     name: 'Covapay',
     description: 'If a fintech website was so cool and creative',
     tags: 'AstroJS + SCSS + GSAP',
-    url: 'https://covapay.pariola.dev',
+    url: 'https://covapay.pariola.work',
   },
 
   {
