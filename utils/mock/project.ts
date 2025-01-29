@@ -3,10 +3,10 @@ import type { IProject } from 'types/entities/project';
 export const projectData: IProject[] = [
   {
     id: 1,
-    name: 'Maurice.design',
-    description: 'Creative portfolio website for maurice',
-    tags: 'parcel + html + gsap + sass',
-    url: 'https://maurice-victor.netlify.app',
+    name: 'Ridima webapp',
+    description: 'Sell giftcards in nigeria for instant cash',
+    tags: 'nextjs + tailwindcss',
+    url: 'https://app.myridima.com/auth/login',
   },
   {
     id: 2,
@@ -36,7 +36,6 @@ export const projectData: IProject[] = [
     tags: 'AstroJS + SCSS + GSAP',
     url: 'https://covapay.pariola.work',
   },
-
   {
     id: 6,
     name: 'Qilo Health',
@@ -46,6 +45,13 @@ export const projectData: IProject[] = [
     url: 'https://qilo.co',
   },
 
+  // {
+  //   id: 1,
+  //   name: 'Maurice.design',
+  //   description: 'Creative portfolio website for maurice',
+  //   tags: 'parcel + html + gsap + sass',
+  //   url: 'https://maurice-victor.netlify.app',
+  // },
   // {
   //   name: 'Enesee Agency',
   //   description: 'Web3 based digital agency',
