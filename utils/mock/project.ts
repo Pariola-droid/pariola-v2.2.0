@@ -40,7 +40,7 @@ export const projectData: IProject[] = [
     id: 5,
     name: 'Meto Health',
     description: 'Find top metabolic health providers near You',
-    tags: 'NextJS + Styled-Components + SCSS',
+    tags: 'NextJS + Stitches + SCSS',
     url: 'https://meto.co',
   },
   {
