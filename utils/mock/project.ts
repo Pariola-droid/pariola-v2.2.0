@@ -29,12 +29,19 @@ export const projectData: IProject[] = [
     tags: 'Vuejs + Gsap',
     url: 'https://shrimppp.pariola.work',
   },
+  // {
+  //   id: 5,
+  //   name: 'Covapay',
+  //   description: 'If a fintech website was so cool and creative',
+  //   tags: 'AstroJS + SCSS + GSAP',
+  //   url: 'https://covapay.pariola.work',
+  // },
   {
     id: 5,
-    name: 'Covapay',
-    description: 'If a fintech website was so cool and creative',
-    tags: 'AstroJS + SCSS + GSAP',
-    url: 'https://covapay.pariola.work',
+    name: 'Meto Health',
+    description: 'Find top metabolic health providers near You',
+    tags: 'NextJS + Styled-Components + SCSS',
+    url: 'https://meto.co',
   },
   {
     id: 6,
