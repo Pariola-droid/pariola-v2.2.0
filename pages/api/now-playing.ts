@@ -1,4 +1,4 @@
-export const runtime = 'edge';
+export const runtime = 'experimental-edge';
 
 import { getNowPlaying } from 'lib/spotify';
 import { type NextRequest } from 'next/server';
