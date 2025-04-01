@@ -17,10 +17,10 @@ export const projectData: IProject[] = [
   },
   {
     id: 3,
-    name: 'CitySubs',
-    description: 'A mini web app for a grill restaurant',
-    tags: 'NextJS + AIRTABLE + RESEND',
-    url: 'https://citysub.pariola.work',
+    name: 'Koyn website',
+    description: 'Sell crypto and get paid in naira instantly',
+    tags: 'NextJS + SCSS',
+    url: 'https://www.getkoyn.com/',
   },
   {
     id: 4,
@@ -29,13 +29,6 @@ export const projectData: IProject[] = [
     tags: 'Vuejs + Gsap',
     url: 'https://shrimppp.pariola.work',
   },
-  // {
-  //   id: 5,
-  //   name: 'Covapay',
-  //   description: 'If a fintech website was so cool and creative',
-  //   tags: 'AstroJS + SCSS + GSAP',
-  //   url: 'https://covapay.pariola.work',
-  // },
   {
     id: 5,
     name: 'Meto Health',
@@ -45,12 +38,33 @@ export const projectData: IProject[] = [
   },
   {
     id: 6,
-    name: 'Qilo Health',
-    description:
-      'A science-based weight loss solution to help you lose weight and keep it off.',
-    tags: 'NextJS + PRISMIC + SCSS',
-    url: 'https://qilo.co',
+    name: 'Willie Folio',
+    description: 'Creative portfolio website for Willie',
+    tags: 'NextJS + Gsap + SCSS',
+    url: 'https://www.willie.design',
   },
+  // {
+  //   id: 3,
+  //   name: 'CitySubs',
+  //   description: 'A mini web app for a grill restaurant',
+  //   tags: 'NextJS + AIRTABLE + RESEND',
+  //   url: 'https://citysub.pariola.work',
+  // },
+  // {
+  //   id: 5,
+  //   name: 'Covapay',
+  //   description: 'If a fintech website was so cool and creative',
+  //   tags: 'AstroJS + SCSS + GSAP',
+  //   url: 'https://covapay.pariola.work',
+  // },
+  // {
+  //   id: 6,
+  //   name: 'Qilo Health',
+  //   description:
+  //     'A science-based weight loss solution to help you lose weight and keep it off.',
+  //   tags: 'NextJS + PRISMIC + SCSS',
+  //   url: 'https://qilo.co',
+  // },
 
   // {
   //   id: 1,
