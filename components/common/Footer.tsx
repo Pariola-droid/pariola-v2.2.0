@@ -1,6 +1,6 @@
-//Basic styles import
-import Link from 'next/link';
 import styles from './styles/footer.module.scss';
+
+import Link from 'next/link';
 
 export default function Footer() {
   const year = new Date().getFullYear();

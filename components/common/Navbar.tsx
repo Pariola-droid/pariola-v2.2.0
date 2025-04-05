@@ -1,9 +1,7 @@
-import React from 'react';
-import Link from 'next/link';
-
-//Basic styles import
 import styles from './styles/navbar.module.scss';
+
 import NowPlaying from 'components/addons/Spotify';
+import Link from 'next/link';
 
 export default function Navbar() {
   return (

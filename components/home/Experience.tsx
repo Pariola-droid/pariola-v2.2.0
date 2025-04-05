@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react';
 
-//Basic styles import
 import styles from './styles/experience.module.scss';
 
 export default function Experience() {

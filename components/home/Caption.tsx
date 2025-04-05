@@ -1,4 +1,3 @@
-//Basic styles import
 import styles from './styles/caption.module.scss';
 
 export default function Caption() {

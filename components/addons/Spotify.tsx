@@ -1,16 +1,13 @@
-import { ReactNode } from 'react';
-import useSWR from 'swr';
-import Image from 'next/image';
-import { useEffect } from 'react';
-import { animate } from 'motion';
-import { Tooltip } from 'react-tippy';
-import 'react-tippy/dist/tippy.css';
+import styles from './styles/spotify.module.scss';
 
 import fetcher from 'lib/fetcher';
 import { NowPlayingSong } from 'lib/types';
-
-// Styles
-import styles from './styles/spotify.module.scss';
+import { animate } from 'motion';
+import Image from 'next/image';
+import { ReactNode, useEffect } from 'react';
+import { Tooltip } from 'react-tippy';
+import 'react-tippy/dist/tippy.css';
+import useSWR from 'swr';
 
 function AnimatedBars() {
   useEffect(() => {

@@ -1,6 +1,3 @@
-import React from 'react';
-
-//Basic styles import
 import styles from './styles/contact.module.scss';
 
 export default function Contact() {

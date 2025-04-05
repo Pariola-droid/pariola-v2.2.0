@@ -1,9 +1,8 @@
 import styles from './styles/project.module.scss';
 
-import React from 'react';
+import IconArrowUp from 'assets/icons/IconArrowUp';
 import { IProject } from 'types/entities/project';
 import { projectData } from '../../utils/mock/project';
-import IconArrowUp from 'assets/icons/IconArrowUp';
 
 export default function Projects() {
   return (
