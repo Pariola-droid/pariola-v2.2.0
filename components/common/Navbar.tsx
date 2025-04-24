@@ -27,11 +27,7 @@ export default function Navbar() {
             <div className={styles.statusIcon}>🚧</div>
           </Tooltip>
 
-          <a
-            href="https://www.zeity.pariola.work"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://zeity.pariola.work" target="_blank" rel="noreferrer">
             <div className={styles.statusTitle}>What&apos;s new?</div>
           </a>
         </div>
