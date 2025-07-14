@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import React, { Fragment, PropsWithChildren } from 'react';
 import { useRouter } from 'next/router';
+import React, { Fragment, PropsWithChildren } from 'react';
 //
 import Footer from 'components/common/Footer';
 import Navbar from 'components/common/Navbar';
@@ -33,7 +33,7 @@ export default function Layout(props: ILayoutProps) {
         <meta name="robots" content="follow, index" />
         <meta
           name="keyword"
-          content="Omopariola Kehinde Philip, pariola.dev, Pariola, Portfolio, Creative Frontend Developer"
+          content="Omopariola Kehinde Philip, pariola.dev, Pariola, Portfolio, Creative Frontend Developer, Kehinde, Kehinde Omopariola, Omopariola, Pariola Kehinde, Pariola Philip, Frontend Developer, Software Engineer, Web Developer, JavaScript Developer, React Developer, Next.js Developer, Pariola Frontend Developer, Pariola Software Engineer, Pariola Web Developer, Pariola JavaScript Developer, Pariola React Developer, Pariola Next.js Developer"
         />
         <meta name="author" content="Pariola - Creative Frontend Developer" />
         <meta content={meta.description} name="description" />
