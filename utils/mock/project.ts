@@ -2,6 +2,13 @@ import type { IProject } from 'types/entities/project';
 
 export const projectData: IProject[] = [
   {
+    id: 8,
+    name: 'Fashikun',
+    description: 'Creative portfolio website for Fashikun',
+    tags: 'NextJS + GSAP + SANITY',
+    url: 'https://fashikun.com',
+  },
+  {
     id: 1,
     name: 'Ridima webapp',
     description: 'Sell giftcards in nigeria for instant cash',
@@ -43,13 +50,13 @@ export const projectData: IProject[] = [
     tags: 'NextJS + Gsap + SCSS',
     url: 'https://www.willie.design',
   },
-  // {
-  //   id: 3,
-  //   name: 'CitySubs',
-  //   description: 'A mini web app for a grill restaurant',
-  //   tags: 'NextJS + AIRTABLE + RESEND',
-  //   url: 'https://citysub.pariola.work',
-  // },
+  {
+    id: 7,
+    name: 'CitySubs',
+    description: 'A mini web app for a grill restaurant',
+    tags: 'NextJS + AIRTABLE + RESEND',
+    url: 'https://citysub.pariola.work',
+  },
   // {
   //   id: 5,
   //   name: 'Covapay',
