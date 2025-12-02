@@ -8,11 +8,10 @@ export default function About() {
           <h1 id="h1BG">Design</h1>
 
           <p>
-            I design, even though I&apos;m probably not the typical designer
-            sitting in front of an Illustrator artboard tweaking pixels. You can
-            always find me buried in stylesheets, fiddling with font sizes and
-            thinking about layouts (~_^). Creating fluid user experiences is
-            something I&apos;m committed to doing while looking chic.
+            I don&apos;t just design static visuals; I build living interfaces.
+            Instead of tweaking pixels on an artboard, I design in the
+            browser-obsessing over stylesheets, typography, and fluid layouts to
+            ensure the final experience feels as good as it looks.
           </p>
         </article>
 
@@ -20,10 +19,11 @@ export default function About() {
           <h1 id="h1BG">Engineering</h1>
 
           <p>
-            I have the ideal tools for developing JavaScript applications, and I
-            can definitely work without them to produce quick, durable solutions
-            that are designed for growth &#8211; performance and scalability are
-            top objectives on my radar.
+            I specialize in the JavaScript ecosystem, building durable
+            applications designed for scale. Whether it&apos;s a complex
+            platform or a quick prototype, I prioritize performance and
+            maintainability, ensuring the code is as robust as the user
+            experience.
           </p>
         </article>
       </div>

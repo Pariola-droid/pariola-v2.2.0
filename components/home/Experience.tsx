@@ -12,19 +12,24 @@ export default function Experience() {
           <p>(~_^)</p>
 
           <p>
-            I&apos;ve built products for companies and individuals around africa
-            ranging from marketing websites to complex solutions and enterprise
-            apps with focus on fast, elegant and accessible user experiences.
-            Currently, I work at <a href="https://diool.com">Diool</a> as a
-            frontend engineer in the growth team.
+            For me, engineering is an extension of the design process. I
+            specialize in bridging the gap between static visuals and living,
+            breathing interfaces. My experience spans Fintech, HealthTech, and
+            EdTech. I&apos;ve architected complex SaaS solutions (including
+            remote collaboration tools) and collaborated with MakerStudio to
+            ship polished products for giants like Nomba and Paystack.
           </p>
 
           <p>
-            Before now, I worked as the Founding Frontend Engineer at{' '}
-            <a href="https://tryklas.com">Klas</a>, crafting thoughtful and
-            inclusive experiences that adhere to web standards. Prior to Klas, I
-            was a front engineer contractor with Regnify and Haxell, building
-            digital products that users love
+            I also understand scale, whether driving optimization as a Growth
+            Frontend Engineer at Diool or managing high-traffic infrastructure
+            for startups like Meto and Qilo. Previously, I set the technical
+            culture as the Founding Engineer at Klas.
+            <br />
+            <br />
+            I’m currently exploring Design Engineer opportunities that challenge
+            me to use my design thinking and creative skills to define—not just
+            build—the next generation of digital products.
           </p>
         </article>
       </div>
