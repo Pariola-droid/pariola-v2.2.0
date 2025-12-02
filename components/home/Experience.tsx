@@ -23,13 +23,13 @@ export default function Experience() {
           <p>
             I also understand scale, whether driving optimization as a Growth
             Frontend Engineer at Diool or managing high-traffic infrastructure
-            for startups like Meto and Qilo. Previously, I set the technical
-            culture as the Founding Engineer at Klas.
+            for startups like Meto. Previously, I set the technical culture as
+            the Founding Frontend Engineer at Klas.
             <br />
             <br />
-            I’m currently exploring Design Engineer opportunities that challenge
-            me to use my design thinking and creative skills to define—not just
-            build—the next generation of digital products.
+            I&apos;m currently exploring Design Engineer opportunities that
+            challenge me to use my design thinking and creative skills to
+            define, not just build, the next generation of digital products.
           </p>
         </article>
       </div>
