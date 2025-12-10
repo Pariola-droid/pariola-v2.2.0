@@ -1,6 +1,5 @@
-import styles from './styles/footer.module.scss';
-
 import Link from 'next/link';
+import styles from './styles/footer.module.scss';
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -44,6 +43,15 @@ export default function Footer() {
             <li>
               <a href="/files/resume.pdf" target="_blanket" rel="noopener">
                 My Résumé
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://contra.com/ipariola"
+                target="_blanket"
+                rel="noopener"
+              >
+                Contra profile
               </a>
             </li>
           </ul>
