@@ -47,7 +47,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://contra.com/ipariola"
+                href="https://contra.com/ipariola?referralExperimentNid=DEFAULT_REFERRAL_PROGRAM&referrerUsername=ipariola"
                 target="_blanket"
                 rel="noopener"
               >
