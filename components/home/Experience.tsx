@@ -27,7 +27,7 @@ export default function Experience() {
             the Founding Frontend Engineer at Klas.
             <br />
             <br />
-            I&apos;m currently exploring Design Engineer opportunities that
+            I&apos;m currently exploring Design Engineering opportunities that
             challenge me to use my design thinking and creative skills to
             define, not just build, the next generation of digital products.
           </p>
