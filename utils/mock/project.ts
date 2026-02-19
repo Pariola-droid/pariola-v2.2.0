@@ -31,32 +31,40 @@ export const projectData: IProject[] = [
   },
   {
     id: 4,
+    name: 'NGN Bank Logos',
+    description: 'A collection of bank logos for Nigeria',
+    tags: 'NextJS + TailwindCSS + Redis',
+    url: 'https://nigeria-bank-logos.xyz',
+  },
+  {
+    id: 5,
     name: 'Shrimppp',
     description: 'Creative website for Shrimppp Food product',
     tags: 'Vuejs + Gsap',
     url: 'https://shrimppp.pariola.work',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Meto Health',
     description: 'Find top metabolic health providers near You',
     tags: 'NextJS + Stitches + SCSS',
     url: 'https://meto.co',
   },
   {
-    id: 6,
+    id: 7,
     name: 'Willie Folio',
     description: 'Creative portfolio website for Willie',
     tags: 'NextJS + Gsap + SCSS',
     url: 'https://www.willie.design',
   },
   {
-    id: 7,
+    id: 8,
     name: 'CitySubs',
     description: 'A mini web app for a grill restaurant',
     tags: 'NextJS + AIRTABLE + RESEND',
     url: 'https://citysub.pariola.work',
   },
+
   // {
   //   id: 5,
   //   name: 'Covapay',
